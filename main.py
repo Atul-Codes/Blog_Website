@@ -1,5 +1,6 @@
 # Creating relational databases: https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html
 # CKEditor text area: https://flask-ckeditor.readthedocs.io/en/latest/basic.html
+# Git Ignore template: https://www.toptal.com/developers/gitignore/
 
 import flask
 from flask import Flask, render_template, redirect, url_for, flash
