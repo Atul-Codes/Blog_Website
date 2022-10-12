@@ -1,0 +1,10 @@
+So we need to create a relationship between the User table and the BlogPost table to link them together.
+So we can see which BlogPosts a User has written. Or see which User is the author of a particular BlogPost.
+
+n relational databases such as SQLite, MySQL or Postgresql we're able to define a relationship between tables using
+a ForeignKey and a relationship() method.
+
+e.g. If we wanted to create a One to Many relationship between the User Table and the BlogPost table,
+where One User can create Many BlogPost objects, we can use the SQLAlchemy docs to achieve this
+
+https://docs.sqlalchemy.org/en/13/orm/basic_relationships.html
